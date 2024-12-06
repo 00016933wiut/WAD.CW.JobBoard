@@ -1,0 +1,6 @@
+@_00016933_jobBoard_WAD_HostAddress = http://localhost:5244
+
+GET {{_00016933_jobBoard_WAD_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

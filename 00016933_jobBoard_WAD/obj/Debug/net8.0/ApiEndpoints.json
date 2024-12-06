@@ -1,0 +1,65 @@
+[
+  {
+    "ContainingType": "jobBoardWADCW.Controllers.ListingsController",
+    "Method": "GetAllListings",
+    "RelativePath": "api/Listings",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "jobBoardWADCW.Controllers.ListingsController",
+    "Method": "AddListing",
+    "RelativePath": "api/Listings",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "jobBoardWADCW.Models.AddListingRequestDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "jobBoardWADCW.Controllers.ListingsController",
+    "Method": "DeleteListing",
+    "RelativePath": "api/Listings/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "jobBoardWADCW.Controllers.ListingsController",
+    "Method": "UpdateListing",
+    "RelativePath": "api/Listings/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "updatedListing",
+        "Type": "jobBoardWADCW.Models.Listing",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
