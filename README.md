@@ -3,7 +3,6 @@ Overview
 
 Demo
 https://youtu.be/7FiCp7xgm1Q
-Unfortunately only after recording the video stumbled upon the fact that microphone on my laptop is not functioning properly, so there is no voice, only background music
 
 
 Prerequisites
